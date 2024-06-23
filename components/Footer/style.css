@@ -1,0 +1,30 @@
+.stackKode-footer-p {
+    border: 2px solid red
+}
+
+.newsletter {
+    margin: auto;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.newsletter-text {
+    text-align: center;
+}
+
+@media(max-width: 800px) {
+
+    .stackKode-footer-p {
+        width: 100%;
+    }
+
+    .newsletter-text {
+        text-align: left;
+    }
+
+    .newsletter {
+        margin: auto;
+        width: 100%
+    }
+    
+}

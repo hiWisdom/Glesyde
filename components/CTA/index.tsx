@@ -29,11 +29,11 @@ const CTA = () => {
               className="animate_left md:w-[70%] lg:w-1/2"
             >
               <h2 className="mb-4 w-11/12 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle4">
-                Join With Us Today & Increase Productivity
+              Transform your business with our cutting-edge WordPress Enterprise SaaS, Mobile Application SaaS, and Website Enterprise SaaS solutions. Join the global leaders in innovation and scalability today!
               </h2>
-              <p>
+              {/* <p>
                 We putting people first allows us to create value and achieve goals in a sustainable way. We stand together in kindness, openness and fairness. We share ideas, solutions and lend  a helping hand. We believe that collaboration and open-source standards are the key to sustainable solutions for our community.
-              </p>
+              </p> */}
             </motion.div>
             <motion.div
               variants={{
@@ -65,7 +65,7 @@ const CTA = () => {
                   href="signup.html"
                   className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
                 >
-                  Sign up
+                  Contact Us
                   <Image
                     width={20}
                     height={20}

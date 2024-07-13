@@ -41,14 +41,14 @@ const Header = () => {
         
           <a href="/">
             <Image
-              src="/images/logo/logo-dark.svg"
+              src="/images/logo/glesyde-light.svg"
               alt="logo"
               width={119.03}
               height={30}
               className="hidden w-full dark:block"
             />
             <Image
-              src="/images/logo/logo-light.svg"
+              src="/images/logo/glesyde-dark.svg"
               alt="logo"
               width={119.03}
               height={30}

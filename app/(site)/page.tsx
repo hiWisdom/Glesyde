@@ -14,7 +14,7 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Welcome to Soiled, We build world-class web and mobile solutions for forward-thinking enterprises. Also, we are one of the world biggest WordPress agency.",
+  title: "Welcome to Glesyde, We build world-class web and mobile solutions for forward-thinking enterprises. Also, we are one of the world biggest WordPress agency.",
   description: "Website Development, Mobile Application Developement, WordPress Development, Secured Payment Integration, Software maintenance, Mobile Application maintenance, Website maintenance, Training and Development  ",
   // other metadata
 };
@@ -23,34 +23,22 @@ export default function Home() {
   return (
     
     <main>
-
-      <Hero />
-
-      <Feature />
-
-      <FunFact />
-
-      <Brands />
-
-      {/* <br/> */}
-
+      <br/>
       <FeaturesTab />
-
-      <Integration />
-
+      <Brands />
+      <Feature />
       <CTA />
-
-      <About />
-
       <FAQ />
-
-      {/* <Testimonial />
-
-      <Pricing /> */}
-
       <Contact />
 
+      {/* <About /> */}
+      {/* <Integration /> */}
+      {/* <Hero /> */}
+      {/* <FunFact /> */}
+      {/* <FeaturesTab /> */}
       {/* <Blog /> */}
+      {/* <Testimonial />
+      <Pricing /> */}
 
     </main>
   );

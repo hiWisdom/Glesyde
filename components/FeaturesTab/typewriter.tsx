@@ -16,14 +16,22 @@ const Typewrite = () => {
     <>
 
         <h1 className="typewrite flex special-text-2 text-[42px] font-[900]">
-         We are Creating 
+        👋 We Code and Create 
         
             <Typewriter
                 options={{
                 strings: [
-                    ", Clean User Interface.",
-                    ", Essential Business Pages.", 
-                    ", Fully Functional Integrations.", 
+                    // ", Clean User Interface.",
+                    // ", Essential Business Pages.", 
+                    // ", Fully Functional Integrations.", 
+                    ", WordPress Solution.",
+                    ", Web App Solution.",
+                    ", Mobile App Solution.",
+                    ", Customize ERP Solution.", 
+                    // ", Custom Website Presentation and Solution.", 
+                    // ", Custom Mobile Application Solution.",
+                    // ", Custom WordPress Solution and Presentation.",
+                    // ", Custom Online Shops & E-Commerce.",
                 ],
                 autoStart: true,
                 loop: true,

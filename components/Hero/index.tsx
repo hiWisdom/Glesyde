@@ -26,15 +26,15 @@ const Hero = () => {
                 <Typewriter
                   options={{
                     strings: [
-                      "echo '# Glesyde' ",
-                      ", We Code your Technology Solution.",
+                      "echo Welcome! To 'Glesyde' ",
+                      ", We Code your Web App Solution.",
+                      ", We Code your Mobile App Solution.",
                       ", We Code your WordPress Solution.",
-                      ", We Code the Future.",
-                      ", We Create your Custom Enterprise Resource Planning System Solution.", 
-                      ", We Create your Website Presnetation and Solution.", 
-                      ", We Create your Mobile Application Development Solution and Presentation.",
-                      ", We Create your WordPress for Enterprise Solution and Presentation.",
-                      ", We Create your Online Shops & E-Commerce.",
+                      ", We Code your Custom Enterprise Resource Planning System Solution.", 
+                      ", We Code and Create  your Website Presentation and Solution.", 
+                      ", We Code and Create  your Mobile Application Development Solution and Presentation.",
+                      ", We Code and Create  your WordPress for Enterprise Solution and Presentation.",
+                      ", We Code and Create your Online Shops & E-Commerce.",
                       ", You can Scroll to check more of our services.",
                     ],
                     autoStart: true,
@@ -44,36 +44,33 @@ const Hero = () => {
             </h1>
 
               <p>
-                At Soiled, We build world-class web and mobile technology solutions for forward-thinking enterprises from startup launch, including - Authentication, Database management, Blog management, Custom Software Solutions, Website Pages and More with the best state-of-art modern technologies.
+                At Glesyde, We build world-class web and mobile technology solutions for forward-thinking enterprises from startup launch, including - Authentication, Database management, Blog management, Custom Software Solutions, Website Pages and More with the best state-of-art modern technologies.
               </p>
 
-              {/* <div className="mt-10">
-                <form onSubmit={handleSubmit}>
+              <div className="mt-10">
+                {/* <form onSubmit={handleSubmit}> */}
                   <div className="flex flex-wrap gap-5">
-                    <input
+                    {/* <input
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       type="text"
                       placeholder="Enter your email address"
                       className="rounded-full border border-stroke px-6 py-2.5 shadow-solid-2 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
-                    />
+                    /> */}
                     <button
                       aria-label="get started button"
                       className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                     >
-                      Get Started
+                      Contact us
                     </button>
                   </div>
-                </form>
+                {/* </form> */}
 
-                <p className="mt-5 text-black dark:text-white">
-                  Try for free no credit card required.
-                </p>
-              </div> */}
+              </div>
             </div>
 
             <div className="animate_right hidden md:w-1/2 lg:block">
-              <div className="relative 2xl:-mr-7.5">
+              {/* <div className="relative 2xl:-mr-7.5">
                 <Image
                   src="/images/shape/shape-01.png"
                   alt="shape"
@@ -109,7 +106,15 @@ const Hero = () => {
                     fill
                   />
                 </div>
-              </div>
+              </div> */}
+
+              <Image
+                src="/images/hero/CodingProgramming_Hero.svg"
+                alt="shape"
+                width={706}
+                height={246}
+                // className="-top-10"
+              />
             </div>
             
           </div>

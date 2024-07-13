@@ -37,14 +37,14 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-light.svg"
+                    src="/images/logo/glesyde-01.png"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-dark.svg"
+                    src="/images/logo/glesyde-01.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
@@ -66,10 +66,10 @@ const Footer = () => {
                 <br/>
                 <br/>
                 <a
-                  href="mail:hello@soiled.com"
+                  href="mail:hello@glesyde.one"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@soiled.com
+                  hello@glesyde.one
                 </a>
               </motion.div>
 
@@ -448,7 +448,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} <Link href="/">Soiled.</Link> All rights reserved
+                &copy; {new Date().getFullYear()} <Link href="/">Glesyde.</Link> All rights reserved
               </p>
             </motion.div>
 

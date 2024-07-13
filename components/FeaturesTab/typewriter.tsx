@@ -14,7 +14,8 @@ const Typewrite = () => {
  return (
 
     <>
-
+<br/>
+<br/>
         <h1 className="typewrite flex special-text-2 text-[42px] font-[900]">
         👋 We Code and Create 
         
@@ -41,20 +42,25 @@ const Typewrite = () => {
 
         </h1>
 
-
-        <Typewriter
+    <p className="lg:hidden">
+         <Typewriter
                 options={{
                 strings: [
-                    "For non Tech savvy's, we have here very simple instructions on how to use the tabs.",
-                    "For mobile device(Andriod or IOS), use your finger and click on each tab. For desktop, if it is touch pad use finger and click on each tab, or mouse and click on each tab",
-                    "Soiled Technologies.",
+                    "We Code and Create WordPress Solution.",
+                    "We Code and Create Web App Solution.",
+                    "We Code and Create Mobile App Solution.",
+                    "We Code and Create Customize ERP Solution.", 
                 ],
                 autoStart: true,
                 loop: true,
                 delay: 5,
                 }}
             />
+    </p>
+   
     
+<br/>
+<br/>
     </>
 
  ) 

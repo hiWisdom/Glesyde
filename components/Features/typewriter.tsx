@@ -15,6 +15,7 @@ const Typewrite = () => {
 
     <>
 
+<br/>
         <h1 className="typewrite flex justify-center special-text-2 text-[30px] font-[900]">
         👋 Things we are
         
@@ -51,6 +52,7 @@ const Typewrite = () => {
             </p>
    
     
+<br/>
     </>
 
  ) 

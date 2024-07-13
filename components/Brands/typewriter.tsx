@@ -15,6 +15,8 @@ const Typewrite = () => {
 
     <>
 
+<br/>
+<br/>
         <p className="typewrite flex justify-center special-text-2 text-[24px] font-[900]">
         We are proud of our
             {/* <Typewriter
@@ -46,6 +48,7 @@ const Typewrite = () => {
         </p>
 
 
+        <br/>
     
     </>
 

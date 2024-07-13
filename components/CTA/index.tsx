@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Typewrite from "./typewriter";
 
 const CTA = () => {
   return (
@@ -28,12 +29,8 @@ const CTA = () => {
               viewport={{ once: true }}
               className="animate_left md:w-[70%] lg:w-1/2"
             >
-              <h2 className="mb-4 w-11/12 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle4">
-              Transform your business with our cutting-edge WordPress Enterprise SaaS, Mobile Application SaaS, and Website Enterprise SaaS solutions. Join the global leaders in innovation and scalability today!
-              </h2>
-              {/* <p>
-                We putting people first allows us to create value and achieve goals in a sustainable way. We stand together in kindness, openness and fairness. We share ideas, solutions and lend  a helping hand. We believe that collaboration and open-source standards are the key to sustainable solutions for our community.
-              </p> */}
+              <Typewrite/>
+              
             </motion.div>
             <motion.div
               variants={{

@@ -1,17 +1,18 @@
 import { Metadata } from "next";
-import Hero from "@/components/Hero";
+// import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
 import Feature from "@/components/Features";
-import About from "@/components/About";
+// import About from "@/components/About";
 import FeaturesTab from "@/components/FeaturesTab";
-import FunFact from "@/components/FunFact";
-import Integration from "@/components/Integration";
+// import FunFact from "@/components/FunFact";
+// import Integration from "@/components/Integration";
 import CTA from "@/components/CTA";
-import FAQ from "@/components/FAQ";
-import Pricing from "@/components/Pricing";
+// import FAQ from "@/components/FAQ";
+import FAQs from "@/components/Faq-1"
+// import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
-import Blog from "@/components/Blog";
-import Testimonial from "@/components/Testimonial";
+// import Blog from "@/components/Blog";
+// import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
   title: "Welcome to Glesyde, We build world-class web and mobile solutions for forward-thinking enterprises. Also, we are one of the world biggest WordPress agency.",
@@ -27,8 +28,9 @@ export default function Home() {
       <FeaturesTab />
       <Brands />
       <Feature />
+      {/* <FAQ /> */}
+      <FAQs/>
       <CTA />
-      <FAQ />
       <Contact />
 
       {/* <About /> */}
